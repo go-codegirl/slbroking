@@ -1,0 +1,6 @@
+CREATE TABLE ONLINEUSERS (
+         ID INT NOT NULL AUTO_INCREMENT PRIMARY KEY COMMENT 'The PRIMARY AUTO INCREMENT identifier',
+         PRIMARY_EMAIL VARCHAR(100) NOT NULL COMMENT 'The primary email address of this registred user',
+         LOGINTIME TIMESTAMP NOT NULL DEFAULT 0 COMMENT 'The datetime when record was created',
+         UNIQUE INDEX PRIMARY_EMAIL_UNIQUE (PRIMARY_EMAIL ASC) 
+       );

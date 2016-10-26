@@ -1,0 +1,1183 @@
+// Import all the mixins for this theme
+@import "addons.scss";
+@import "dashboard";
+
+.dashboard {
+  // Output the actual theme selectors
+  @include addons;
+  @include dashboard;
+}
+.backgroundimage {
+  background: url("../dashboard/img/banner_login.jpg");
+  -moz-background-size: 100% 100%;
+  -o-background-size: 100% 100%;
+  -webkit-background-size: 100% 100%;
+  background-size: 100% 100%;
+}
+.welcomePageImage {
+  background: url("../dashboard/img/brokingHomeBg.jpg");
+  -moz-background-size: 100% 100%;
+  -o-background-size: 100% 100%;
+  -webkit-background-size: 100% 100%;
+  background-size: 100% 100%;
+}
+
+.v-label.v-widget.h2.v-label-h2.homeLabelStyleName.v-label-homeLabelStyleName.v-has-width {
+    font-weight: 400 !important;
+    color: #354E4B;
+    font-size: 50px !important;
+    position: relative !important;
+    margin-top: 32px !important;
+    margin-left: 35px !important;
+}
+.v-slot.v-slot-homePageGirdLayout {
+    width: 100% !important;
+    height: 175px !important;
+    position: relative !important;
+}
+.v-image.v-widget.homeHambergureStyleName.v-image-homeHambergureStyleName {
+    margin-left: 55px !important;
+    position: relative !important;
+    margin-top: -7px !important;
+}
+.v-image.v-widget.homeLogoStyleName.v-image-homeLogoStyleName {
+    margin-left: 110px !important;
+    margin-top: -3px !important;
+    position: relative !important;
+}
+.v-slot.v-slot-policyAdminVLayoutStyleName {
+    background-color: white !important;
+    position: relative !important;
+}
+.v-label.v-widget.policyAdminCaptionlabelStyleName.v-label-policyAdminCaptionlabelStyleName.v-has-width {
+    font-weight: 400 !important;
+    text-align: center !important;
+    color: #354E4B;
+    margin-top: -20px !important;
+    position: relative !important;
+}
+.v-label.v-widget.h3.v-label-h3.policyAdminlabelStyleName.v-label-policyAdminlabelStyleName.v-has-width {
+    font-weight: bold !important;
+    color: #354E4B;
+    text-align: center !important;
+    margin-top: 30px !important;
+    position: relative !important;
+}
+.v-label.v-widget.readMoreStyleName.v-label-readMoreStyleName.v-has-width {
+    padding-left: 182px !important;
+    font-size: 15px !important;
+    font-weight: 400 !important;
+    color: #354E4B;
+    text-decoration: underline;
+}
+.v-label.v-widget.salesMgmtCaptionlabelStyleName.v-label-salesMgmtCaptionlabelStyleName.v-has-width {
+    font-weight: 400 !important;
+    text-align: center !important;
+    color: #354E4B;
+    margin-top: 20px !important;
+    position: relative !important;
+}
+.v-horizontallayout.v-layout.v-horizontal.v-widget.homeGridRightStyleName.v-horizontallayout-homeGridRightStyleName.v-has-width.v-has-height {
+    margin-top: 71px !important;
+    position: relative !important;
+}
+.v-horizontallayout.v-layout.v-horizontal.v-widget.homeFooterLayoutStyleName.v-horizontallayout-homeFooterLayoutStyleName.v-has-width {
+    margin-left: -100px !important;
+    position: relative !important;
+}
+.v-slot.v-slot-homeFooterLayoutStyleName {
+    height: 50px !important;
+    margin-top: 160px !important;
+    position: relative !important;
+}
+.errormessage {
+    color: red;
+    font-weight: 400 !important;
+    font-size:18px !important;
+}
+.dashboard .v-menubar-homeuser-menu {
+    border: none;
+    border-radius: 0;
+    padding: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    text-shadow: none;
+    color: inherit;
+    margin: 19px 7px;
+    display: block;
+    overflow: hidden;
+    text-align: center;
+    height: auto;
+    color: inherit;
+    margin-top: -106px !important;
+    width: 30px !important;
+    background-image: url("../dashboard/img/Hambergure.png");
+    height: 16px !important;
+    margin-left: 55px !important;
+	position: relative !important;
+	margin-top: -100px !important;
+}
+.dashboard .v-menubar-popup .v-menubar-menuitem-selected {
+	background:none !important;
+	color:#354E4B;
+}
+.v-menubar-menuitem.v-menubar-menuitem-menuItemStyleName.v-menubar-menuitem-selected {
+    background: none !important;
+}
+.homeGridRightBottomStyleName {
+	cursor: pointer !important;
+}
+.homeGridRightStyleName {
+    cursor: pointer !important;
+}
+.v-menubar.v-widget.homeuser-menu.v-menubar-homeuser-menu:hover {
+    background-image: url("../dashboard/img/Hambergure_Clicked.png");
+}
+.v-horizontallayout.v-layout.v-horizontal.v-widget.valo-menu-logo.v-horizontallayout-valo-menu-logo {
+    display: block;
+    width: 197px !important;
+    height: 70px !important;
+    background: none;
+    position: relative !important;
+    margin-top: 0px;
+	margin-bottom: -4px;
+}
+.v-horizontallayout.v-layout.v-horizontal.v-widget.moduleTitleStyleName.v-horizontallayout-moduleTitleStyleName {
+   font-size: 18px !important;
+	margin-left: 15px !important;
+	font-weight: 400 !important;
+	color: white;
+	margin-bottom: 15px !important;
+	position: relative !important;
+}
+.v-csslayout.v-layout.v-widget.sidebar.v-csslayout-sidebar.valo-menu-part.v-csslayout-valo-menu-part.no-vertical-drag-hints.v-csslayout-no-vertical-drag-hints.no-horizontal-drag-hints.v-csslayout-no-horizontal-drag-hints {
+    background-color: #35524E !important;
+}
+.dashboard .valo-menu-item:hover img {
+    background-color: white !important;
+	opacity: 0.9;
+	background-size: 12px 16px;
+	border-radius: 4px !important;
+	
+}
+.dashboard .valo-menu-item.selected img {
+    background-color: white !important;
+	opacity: 0.9;
+	background-size: 12px 16px;
+	border-radius: 4px !important;
+}
+.dashboard .valo-menu-item.selected .v-icon{
+  color: white !important;
+  opacity: 0.9;
+  background-size: 12px 16px;
+  border-radius: 4px !important;
+}
+
+.dashboard .valo-menu-item.selected {
+    background: none !important;
+}
+#New\ Policy {
+    margin-left: 2px !important;
+    position: relative !important;
+}
+#New\ Policy img {
+    margin-right: 11px !important;
+    position: relative !important;
+}
+#Upload\ Renewals img {
+    margin-right: 11px !important;
+    position: relative !important;
+}
+#Upload\ Renewals {
+    margin-left: 2px !important;
+    position: relative !important;
+}
+#Search\ Policies img {
+    margin-right: 11px !important;
+    position: relative !important;
+}
+.v-tabsheet-tabcontainer.v-tabsheet-tabcontainer-newPolicyTabSheetStyleName {
+    background-color: #d3f6f2;
+}
+.v-tabsheet-tabitem .v-captiontext {
+    font-weight: bold !important;
+    color: #35524E !important;
+    font-size: 15px !important;
+	margin-left: 25px !important;
+	margin-right: 25px !important;
+	position: relative !important;
+	font-family: "Source Sans Pro", sans-serif;
+}
+.industryLabelStyleName {
+    font-weight: 400 !important;
+    font-size:15px !important;
+    font-family: "Source Sans Pro", sans-serif;
+}
+.phoneLabelStyleName {
+	font-weight: 400 !important;
+	font-size:15px !important;
+	font-family: "Source Sans Pro", sans-serif;
+}
+.sPhoneLabelStyleName {
+	font-weight: 400 !important;
+	margin-left: 82px !important;
+	position: relative !important;
+	font-size:15px !important;
+	font-family: "Source Sans Pro", sans-serif;
+}
+.emailLabelStyleName {
+	font-weight: 400 !important;
+	font-size:15px !important;
+	font-family: "Source Sans Pro", sans-serif;
+}
+.sEmailLabelStyleName{
+	font-weight: 400 !important;
+	margin-left: 142px !important;
+	position: relative !important;
+	font-size:15px !important;
+	font-family: "Source Sans Pro", sans-serif;
+}
+.addressFieldStyleName {
+    width: 381px !important;
+    position: relative !important;
+    height: 37px !important;
+	border-color: silver;
+	border-width: 1.9px;
+	border-style: solid;
+}
+.individualNameStyleName {
+    width: 381px !important;
+    position: relative !important;
+}
+.dateOfBirthFieldStyleName {
+	width: 381px !important;
+}
+.stateLabelStyleName {
+    font-weight: 400 !important;
+    margin-left: 152px !important;
+    font-size:15px !important;
+	font-family: "Source Sans Pro", sans-serif;
+}
+.cityLabelStyleName {
+    font-weight: 400 !important;
+    font-size:15px !important;
+	font-family: "Source Sans Pro", sans-serif;
+}
+.zipLabelStyleName {
+	font-weight: 400 !important;
+	font-size:15px !important;
+	font-family: "Source Sans Pro", sans-serif;
+}
+.countryLabelStyleName {
+	font-weight: 400 !important;
+    margin-left: 75px !important;
+    font-size:15px !important;
+	font-family: "Source Sans Pro", sans-serif;
+}
+/*.v-slot.v-slot-personalDeatilsHLayputStyleName {
+    height: 560px !important;
+    overflow-y: scroll !important;
+}*/
+.v-datefield-popup.v-widget.dateOfBirthFieldStyleName.v-datefield-popup-dateOfBirthFieldStyleName.v-datefield-day {
+    width: 248px !important;
+}
+.agentNamesBoxStyleName {
+    width: 291px !important;
+    position: relative !important;
+}
+.officeCodeFieldStyleName {
+    width: 291px !important;
+    position: relative !important;
+}
+.referenceFieldStyleName {
+    width: 291px !important;
+    position: relative !important;
+}
+.insCmpNameBoxStyleName {
+    width: 291px !important;
+    position: relative !important;
+}
+.dashboard .v-filterselect-suggestpopup .gwt-MenuItem-selected {
+    background:none;
+    color: #35524E !important;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.05);
+}
+.policyTypeBoxStyleName {
+    width: 291px !important;
+    position: relative !important;
+}
+.policyNumberFieldStyleName {
+	width: 291px !important;
+    position: relative !important;
+}
+.insTypeBoxStyleName {
+	width: 291px !important;
+    position: relative !important;
+}
+.productNameFieldStyleName {
+	width: 291px !important;
+    position: relative !important;
+}
+.endorseNumFieldStyleName {
+	width: 291px !important;
+    position: relative !important;
+}
+.startsOnFieldStyleName {
+	width: 291px !important;
+}
+.endsOnFieldStyleName {
+	width: 291px !important;
+}
+.grossPremiumFieldStyleName {
+	width: 291px !important;
+    position: relative !important;
+}
+.serviceTaxFieldStyleName {
+	width: 291px !important;
+    position: relative !important;
+}
+.serviceTaxAmountFieldStyleName {
+	width: 291px !important;
+    position: relative !important;
+}
+.netPremiumFieldStyleName {
+	width: 291px !important;
+    position: relative !important;
+}
+.commissionRatePerFieldStyleName {
+	width: 291px !important;
+    position: relative !important;
+}
+.commissionRateAmaountFieldStyleName {
+	width: 291px !important;
+    position: relative !important;
+}
+.collectionDateFieldStyleName {
+	width: 291px !important;
+}
+.uploadDocumentMenuBarStyleName .v-menubar-menuitem.v-menubar-menuitem-selected {
+    background: none !important;
+    color: #35524E !important;
+}
+.v-menubar.v-widget.uploadDocumentMenuBarStyleName.v-menubar-uploadDocumentMenuBarStyleName {
+    background: white !important;
+    margin-left: 60%;
+}
+.v-slot.v-slot-uploadDocumentMenuBarStyleName.v-align-center {
+    color: #35524E !important;
+    width: 174px !important;
+    height: 37px !important;
+    margin-left: 190px !important;
+    position: relative !important;
+}
+.v-menubar-submenu.v-widget.uploadDocumentMenuBarStyleName.v-menubar-submenu-uploadDocumentMenuBarStyleName {
+    width: 180px !important;
+    text-align: left !important;
+    height: 157px !important;
+    margin-top: -5px !important;
+    margin-bottom: 0px !important;
+    margin-left: -1px;
+    position: relative !important;
+}
+.v-menubar-submenu.v-widget.uploadDocumentMenuBarStyleName.v-menubar-submenu-uploadDocumentMenuBarStyleName .v-menubar-menuitem {
+    box-shadow: 0px 0px 1px;
+    width: 119px;
+    margin-left: -3px;
+    position: relative !important;
+    font-size: 15px;
+}
+.v-button.v-widget.sendNowButtonStyleName.v-button-sendNowButtonStyleName {
+    background: #0E8B46 !important;
+    color: white !important;
+    font-weight: 800 !important;
+}
+.v-slot.v-slot-documentsTopHLayoutStyleName {
+    margin-top: 30px !important;
+    position: relative !important;
+    margin-bottom: 20px !important;
+}
+.v-slot.v-slot-sendNowButtonStyleName.v-align-right {
+    width: 8.6% !important;
+    height: 38px !important;
+    position: relative !important;
+    margin-left: 135px !important;
+}
+.v-button.v-widget.sendNowButtonStyleName.v-button-sendNowButtonStyleName {
+    background: green !important;
+    color: white !important;
+    font-weight: 800 !important;
+    margin-left: 15px;
+    position: relative !important
+}
+.v-image.v-widget.shareIconStyleName.v-image-shareIconStyleName {
+    margin-top: 6px !important;
+    position: relative !important;
+    cursor: pointer;
+}
+.v-image.v-widget.printIconStyleName.v-image-printIconStyleName {
+   	margin-top: 6px !important;
+    margin-left: 370px !important;
+    position: relative !important;
+    cursor: pointer;
+    margin-right: 10px;
+}
+.v-slot.v-slot-shareIconStyleName {
+    width: 50px !important;
+    height: 40px !important;
+    position: relative !important;
+}
+.v-select-optiongroup.v-widget.horizontal.v-select-optiongroup-horizontal.selectAllStyleName.v-select-optiongroup-selectAllStyleName {
+    margin-left: 1px !important;
+    position: relative !important;
+}
+.v-slot.v-slot-girdHeaderStyleName {
+    background-color: #35524E !important;
+    color: white !important;
+    font-weight: 800 !important;
+    width: 1013px !important;
+    height: 33px !important;
+}
+.v-select-optiongroup.v-widget.horizontal.v-select-optiongroup-horizontal.policyDocRadioStyleName.v-select-optiongroup-policyDocRadioStyleName {
+    margin-left: 28px !important;
+    position: relative !important;
+}
+.v-label.v-widget.girdHeaderCaptionStyleName.v-label-girdHeaderCaptionStyleName.v-label-undef-w {
+    margin-top: 4px !important;
+    position: relative !important;
+    margin-left: 10px !important;
+	font-size: 17px !important;
+}
+.v-slot.v-slot-policyDocBodyHLayoutStyleName {
+    margin-top: 27px !important;
+    position: relative !important;
+}
+.v-slot.v-slot-newPolicyButtonStyleName {
+    margin-right: 15px !important;
+    position: relative !important;
+    margin-left: -50px !important;
+}
+.v-slot.v-slot-printIconPersoanlStyleName {
+    margin-right: 15px !important;
+    margin-top: 3px !important;
+    position: relative !important;
+    cursor: pointer !important;
+    margin-left: 15px;
+}
+.v-slot.v-slot-shareIconPersonalStyleName {
+    margin-top: 3px !important;
+    position: relative !important;
+    cursor: pointer !important;
+}
+.v-button.v-widget.newPolicyButtonStyleName.v-button-newPolicyButtonStyleName {
+    background-color: #0E8B46;
+    font-weight: 800 !important;
+    color: white !important;
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 15px !important;
+}
+.v-button.v-widget.saveButtonStyleName.v-button-saveButtonStyleName {
+    color: white !important;
+    font-size: 15px !important;
+    width: 85px !important;
+    background-color: #0E8B46;
+    font-weight: bold !important;
+    font-family: "Source Sans Pro", sans-serif;
+    margin-left: 148px !important;
+    margin-top: 12px !important;
+    position: relative !important;
+}
+// sl-grid is used for all grids in safety-leaf project
+div.sl-grid td.v-grid-cell
+{
+  font-size: 14px;
+  font-weight:400;
+}
+
+div.sl-grid thead.v-grid-header {
+  top: 0;
+  font-weight: bold;
+}
+/*.v-verticallayout.v-layout.v-vertical.v-widget.policyDocGridLayoutStyleName.v-verticallayout-policyDocGridLayoutStyleName {
+    border-style: solid !important;
+    border-width: 1.5px !important;
+}*/
+.v-checkbox.v-widget.selectAllStyleName.v-checkbox-selectAllStyleName {
+    margin-left: 2.4% !important;
+    position: relative !important;
+}
+.v-slot.v-slot-docsVLayoutStyleName {
+    overflow-y: scroll !important;
+    height: 421px !important;
+    position: relative !important;
+}
+.v-grid-cell.viewImage button.v-nativebutton {
+  background-image: url("../dashboard/img/Download.png") !important;
+  background-repeat: no-repeat;
+  border: none !important;
+  background-color: transparent !important;
+  border-radius: 0 !important;
+  width: 20px !important;
+  height: 27px !important;
+  cursor: pointer !important;
+  padding: 0!important;
+  color: transparent !important;
+}
+.v-checkbox.v-widget.policyDocRadioStyleName.v-checkbox-policyDocRadioStyleName {
+    margin-left: 28px !important;
+    position: relative !important;
+}
+.v-slot.v-slot-docFooterStyleName {
+    height: 40px !important;
+}
+/*Media Queries*/
+@media only screen and (min-width : 1681px) and (max-width : 1900px){
+	.v-slot.v-slot-personalDeatilsHLayputStyleName {
+    	height: 1111px !important;
+		overflow-y: scroll !important;
+	}
+	.v-slot.v-slot-insuranceCompanyDetailsHLayoutStyleName {
+		height: 1111px !important;
+		overflow-y: scroll !important;
+	}
+	.v-slot.v-slot-docsVLayoutStyleName {
+		height: 975px !important;
+		overflow-y: scroll !important;
+		position: relative !important;
+	}
+	.v-tabsheet-content.v-tabsheet-content-newPolicyTabSheetStyleName {
+    	width: 1700px !important;
+	}
+	.v-slot.v-slot-printIconStyleName {
+		width: 30px !important;
+	}
+	.v-image.v-widget.printIconStyleName.v-image-printIconStyleName {
+		margin-top: 6px !important;
+		margin-left: 200px !important;
+		position: relative !important;
+		cursor: pointer;
+	}
+	.v-image.v-widget.shareIconStyleName.v-image-shareIconStyleName {
+		margin-left: 220px !important;
+		margin-top: 5px !important;
+		position: relative !important;
+		cursor: pointer;
+	}
+	.v-slot.v-slot-sendNowButtonStyleName.v-align-right {
+		width: 4.6% !important;
+		height: 38px !important;
+		position: relative !important;
+		margin-left: 230px !important;
+	}
+	.v-filterselect.v-widget.filterBoxStyleName.v-filterselect-filterBoxStyleName {
+		border-style: none;
+		margin-left: -240px !important;
+	}
+}
+
+@media only screen and (min-width : 1601px) and (max-width : 1680px){
+	.v-slot.v-slot-personalDeatilsHLayputStyleName {
+    	height: 960px !important;
+		overflow-y: scroll !important;
+	}
+	.v-slot.v-slot-insuranceCompanyDetailsHLayoutStyleName {
+		height: 960px !important;
+		overflow-y: scroll !important;
+	}
+	.v-slot.v-slot-docsVLayoutStyleName {
+		height: 830px !important;
+		overflow-y: scroll !important;
+		position: relative !important;
+	}
+	.v-tabsheet-content.v-tabsheet-content-newPolicyTabSheetStyleName {
+    	width: 1480px !important;
+	}
+	.v-slot.v-slot-printIconStyleName {
+		width: 30px !important;
+	}
+	.v-image.v-widget.printIconStyleName.v-image-printIconStyleName {
+		margin-top: 6px !important;
+		margin-left: 200px !important;
+		position: relative !important;
+		cursor: pointer;
+	}
+	.v-image.v-widget.shareIconStyleName.v-image-shareIconStyleName {
+		margin-left: 220px !important;
+		margin-top: 5px !important;
+		position: relative !important;
+		cursor: pointer;
+	}
+	.v-slot.v-slot-sendNowButtonStyleName.v-align-right {
+		width: 4.6% !important;
+		height: 38px !important;
+		position: relative !important;
+		margin-left: 230px !important;
+	}
+	.v-filterselect.v-widget.filterBoxStyleName.v-filterselect-filterBoxStyleName {
+	    border-style: none;
+	    margin-left: -200px !important;
+	}
+}
+
+@media only screen and (min-width : 1401px) and (max-width : 1600px){
+	.v-slot.v-slot-personalDeatilsHLayputStyleName {
+    	height: 1111px !important;
+		overflow-y: scroll !important;
+	}
+	.v-slot.v-slot-insuranceCompanyDetailsHLayoutStyleName {
+		height: 1111px !important;
+		overflow-y: scroll !important;
+	}
+	.v-slot.v-slot-docsVLayoutStyleName {
+		height: 975px !important;
+		overflow-y: scroll !important;
+		position: relative !important;
+	}
+	.v-tabsheet-content.v-tabsheet-content-newPolicyTabSheetStyleName {
+    	width: 1400px !important;
+	}
+	.v-slot.v-slot-printIconStyleName {
+		width: 30px !important;
+	}
+	.v-image.v-widget.printIconStyleName.v-image-printIconStyleName {
+		margin-top: 6px !important;
+		margin-left: 200px !important;
+		position: relative !important;
+		cursor: pointer;
+	}
+	.v-image.v-widget.shareIconStyleName.v-image-shareIconStyleName {
+		margin-left: 220px !important;
+		margin-top: 5px !important;
+		position: relative !important;
+		cursor: pointer;
+	}
+	.v-slot.v-slot-sendNowButtonStyleName.v-align-right {
+		width: 4.6% !important;
+		height: 38px !important;
+		position: relative !important;
+		margin-left: 230px !important;
+	}
+	.v-filterselect.v-widget.filterBoxStyleName.v-filterselect-filterBoxStyleName {
+	    border-style: none;
+	    margin-left: -190px !important;
+	}
+}
+
+@media only screen and (min-width : 1367px) and (max-width : 1400px){
+	.v-slot.v-slot-insuranceCompanyDetailsHLayoutStyleName {
+		overflow-y: scroll !important;
+	}
+	.v-slot.v-slot-docsVLayoutStyleName {
+		height: 975px !important;
+		overflow-y: scroll !important;
+		position: relative !important;
+	}
+	.v-tabsheet-content.v-tabsheet-content-newPolicyTabSheetStyleName {
+    	width: 1200px !important;
+	}
+	.v-slot.v-slot-printIconStyleName {
+		width: 30px !important;
+	}
+	.v-image.v-widget.printIconStyleName.v-image-printIconStyleName {
+		margin-top: 6px !important;
+		margin-left: 200px !important;
+		position: relative !important;
+		cursor: pointer;
+	}
+	.v-image.v-widget.shareIconStyleName.v-image-shareIconStyleName {
+		margin-left: 220px !important;
+		margin-top: 5px !important;
+		position: relative !important;
+		cursor: pointer;
+	}
+	.v-slot.v-slot-sendNowButtonStyleName.v-align-right {
+		width: 4.6% !important;
+		height: 38px !important;
+		position: relative !important;
+		margin-left: 230px !important;
+	}
+	.v-filterselect.v-widget.filterBoxStyleName.v-filterselect-filterBoxStyleName {
+	    border-style: none;
+	    margin-left: -190px !important;
+	}
+}
+
+@media only screen and (min-width : 1281px) and (max-width : 1366px){
+	.v-tabsheet-content.v-tabsheet-content-newPolicyTabSheetStyleName {
+		width: 100% !important;
+	}
+	.v-slot.v-slot-insuranceCompanyDetailsHLayoutStyleName {
+		 overflow:auto;
+	}
+	.v-slot.v-slot-docsVLayoutStyleName {
+		overflow-y: scroll !important;
+		position: relative !important;
+	}
+	.v-textfield.v-widget.individualNameStyleName.v-textfield-individualNameStyleName {
+		width: 381px !important;
+	}
+	#addressFieldId {
+		width: 381px !important;
+	}
+	.v-horizontallayout.v-layout.v-horizontal.v-widget.personalDeatilsHLayputStyleName.v-horizontallayout-personalDeatilsHLayputStyleName {
+		height:540px !important;
+	}
+}
+
+@media only screen and (min-width : 1025px) and (max-width : 1280px){
+	
+	.v-tabsheet-content.v-tabsheet-content-newPolicyTabSheetStyleName {
+		width: 1080px !important;
+	}
+	.v-slot.v-slot-insuranceCompanyDetailsHLayoutStyleName {
+		height: 940px !important;
+		 overflow-y: scroll !important;
+	}
+	.v-slot.v-slot-docsVLayoutStyleName {
+		height: 800px !important;
+		overflow-y: scroll !important;
+		position: relative !important;
+	}
+	.v-slot.v-slot-printIconStyleName {
+		width: 30px !important;
+		margin-left: -80px !important;
+		position: relative !important;
+	}
+	.v-image.v-widget.printIconStyleName.v-image-printIconStyleName {
+		margin-top: 6px !important;
+		margin-left: 300px !important;
+		position: relative !important;
+		cursor: pointer;
+	}
+	.v-image.v-widget.shareIconStyleName.v-image-shareIconStyleName {
+		margin-left: 320px !important;
+		margin-top: 5px !important;
+		position: relative !important;
+		cursor: pointer;
+	}
+	.v-slot.v-slot-sendNowButtonStyleName.v-align-right {
+		width: 8.6% !important;
+		height: 38px !important;
+		position: relative !important;
+		margin-left: 315px !important;
+	}
+	.v-slot.v-slot-girdHeaderStyleName {
+		background-color: #35524E !important;
+		color: white !important;
+		font-weight: 800 !important;
+		width: 1000px !important;
+		height: 33px !important;
+	}
+	.v-verticallayout.v-layout.v-vertical.v-widget.policyDocGridLayoutStyleName.v-verticallayout-policyDocGridLayoutStyleName {
+		border-style: solid !important;
+		border-width: 1.5px !important;
+		width: 1001px !important;
+	}
+	.v-slot.v-slot-newPolicyButtonStyleName {
+		margin-right: 15px !important;
+		position: relative !important;
+		margin-left: -120px !important;
+	}
+	.v-filterselect.v-widget.filterBoxStyleName.v-filterselect-filterBoxStyleName {
+		border-style: none;
+		margin-left: -140px !important;
+	}
+	.v-horizontallayout.v-layout.v-horizontal.v-widget.personalDeatilsHLayputStyleName.v-horizontallayout-personalDeatilsHLayputStyleName {
+		height: 710px !important;
+	}
+}
+
+@media only screen and (min-width : 800px) and (max-width : 1024px){
+	.v-textfield.v-widget.individualNameStyleName.v-textfield-individualNameStyleName {
+		width: 300px !important;
+	}
+	#addressFieldId {
+		width: 300px !important;
+	}
+	.v-tabsheet-content.v-tabsheet-content-newPolicyTabSheetStyleName {
+		width: 100% !important;
+	}
+	.v-slot.v-slot-insuranceCompanyDetailsHLayoutStyleName {
+		 overflow:auto;
+	}
+	.v-slot.v-slot-docsVLayoutStyleName {
+		overflow-y: scroll !important;
+		position: relative !important;
+	}
+	.v-horizontallayout.v-layout.v-horizontal.v-widget.personalDeatilsHLayputStyleName.v-horizontallayout-personalDeatilsHLayputStyleName {
+		height: 540px !important;
+	}
+	.addressFieldStyleName {
+		width: 300px !important;
+		position: relative !important;
+		height: 37px !important;
+		border-color: silver;
+		border-width: 1.9px;
+		border-style: solid;
+	}
+	.dateOfBirthFieldStyleName {
+		width: 300px !important;
+	}
+	input.v-textfield.v-widget.scondaryNumberStyleName.v-textfield-scondaryNumberStyleName {
+		width: 125px;
+	}
+	input.v-textfield.v-widget.phoneNumberStyleName.v-textfield-phoneNumberStyleName {
+		width: 125px;
+	}
+	.sPhoneLabelStyleName {
+		font-weight: 400 !important;
+		margin-left: 22px !important;
+		position: relative !important;
+		font-size: 15px !important;
+		font-family: "Source Sans Pro", sans-serif;
+	}
+	input.v-textfield.v-widget.emailStyleName.v-textfield-emailStyleName {
+		width: 125px;
+	}
+	input.v-textfield.v-widget.sEmailStyleName.v-textfield-sEmailStyleName {
+		width: 125px;
+	}
+	.sEmailLabelStyleName {
+		font-weight: 400 !important;
+		margin-left: 82px !important;
+		position: relative !important;
+		font-size: 15px !important;
+		font-family: "Source Sans Pro", sans-serif;
+	}
+	input.v-textfield.v-widget.cityStyleName.v-textfield-cityStyleName {
+		width: 125px;
+	}
+	input.v-textfield.v-widget.stateStyleName.v-textfield-stateStyleName {
+		width: 125px;
+	}
+	.stateLabelStyleName {
+		font-weight: 400 !important;
+		margin-left: 94px !important;
+		font-size: 15px !important;
+		font-family: "Source Sans Pro", sans-serif;
+	}
+	input.v-textfield.v-widget.zipStyleName.v-textfield-zipStyleName {
+		width: 125px;
+	}
+	input.v-textfield.v-widget.countryStyleName.v-textfield-countryStyleName {
+		width: 125px;
+	}
+	.countryLabelStyleName {
+		font-weight: 400 !important;
+		margin-left: 15px !important;
+		font-size: 15px !important;
+		font-family: "Source Sans Pro", sans-serif;
+	}
+	.v-slot.v-slot-newPolicyButtonStyleName {
+		margin-right: 15px !important;
+		position: relative !important;
+		margin-left: -130px !important;
+	}
+	.v-verticallayout.v-layout.v-vertical.v-widget.docsVLayoutStyleName.v-verticallayout-docsVLayoutStyleName.v-has-width {
+		height: 545px;
+	}
+}
+@media only screen and (min-height : 600px) and (max-height : 800px){
+	.v-horizontallayout.v-layout.v-horizontal.v-widget.personalDeatilsHLayputStyleName.v-horizontallayout-personalDeatilsHLayputStyleName {
+		height: 540px !important;
+	}
+	.v-verticallayout.v-layout.v-vertical.v-widget.uploadDocumentsTab.v-verticallayout-uploadDocumentsTab.v-has-width {
+	    height: 562px;
+	}
+	.v-slot.v-slot-insuranceCompanyDetailsHLayoutStyleName {
+	    height: 560px !important;
+	    overflow-y: scroll !important;
+	}
+}
+.uploadHeaderStyle
+{
+ color: #354e4c !important;
+  background-color: #d0fff9 !important;
+  line-height:3;
+  box-shadow: 0px 5px 5px 0px #d4d4d4 !important;
+  height: 40px;
+}
+.v-tabsheet-tabcontainer.v-tabsheet-tabcontainer-uploadPolicyTabSheetStyleName {
+    background-color: #d3f6f2;
+}
+.notificationbuttonStyleName
+{
+ background-image: url("../dashboard/img/Notification_icon.png") !important;
+}
+.v-button.v-widget.notificationbuttonStyleName.v-button-notificationbuttonStyleName {
+    height: 32px;
+    background: transparent;
+    margin-right: 20px !important;
+	position: relative !important;
+	border-radius: 16px !important;
+	margin-top: -19px;
+}
+.v-label.v-widget.bold.v-label-bold.v-label-undef-w {
+    margin-right: -650%;
+}
+.BrowseButtonStyleName {
+	color:white !important;
+}
+.v-label.v-widget.uploadDocLabel.v-label-uploadDocLabel.v-has-width {
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400 !important;
+    margin-top: -18px;
+    position: relative !important;
+}
+.dashboard .v-progressbar-wrapper {
+    border-radius: 0px;
+    height: 9px;
+    background: #cacaca;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    min-width: 74px;
+    MARGIN-TOP:16PX;
+    min-width: 74px;		    
+    margin-left: 150px;
+    margin-right: -150px;
+    position: relative !important;
+}
+
+.dashboard .v-progressbar-indicator {
+	border-radius: 10px;
+	height: inherit;
+	background: green;
+	border: 0 solid green;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	max-width: 100%;
+	min-width: 3px;
+	-webkit-transition: width 160ms;
+	-moz-transition: width 160ms;
+	transition: width 160ms;
+}
+.v-caption.v-caption-individualNameStyleName.v-caption-h1 {
+    display: none;
+}
+.v-caption.v-caption-addressFieldStyleName.v-caption-h1 {
+    display: none;
+}
+.v-caption.v-caption-addressFieldStyleName {
+    display: none;
+}
+.v-caption.v-caption-phoneNumberStyleName {
+    display: none;
+}
+.v-caption.v-caption-emailStyleName {
+    display: none;
+}
+.v-caption.v-caption-cityStyleName {
+    display: none;
+}
+.v-caption.v-caption-stateStyleName {
+    display: none;
+}
+.v-caption.v-caption-zipStyleName {
+    display: none;
+}
+.v-caption.v-caption-countryStyleName {
+    display: none;
+}
+broking .v-upload .v-button {
+    -webkit-box-sizing: border-box;
+    margin-top: -26px;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    display: inline-block;
+    vertical-align: top;
+    text-align: left;
+    white-space: normal;
+}
+.v-captiontext {
+    margin-top: 16PX;
+    margin-left:209px;
+}
+img.v-image.v-widget.printbuttonStyleName.v-image-printbuttonStyleName {
+    margin-left: 350px;
+    padding-right: 25px;
+    margin-top: 37px;
+    position: relative !important;
+    cursor: pointer;
+}
+img.v-image.v-widget.sharebuttonStyleName.v-image-sharebuttonStyleName {
+    margin-top: 35px;
+    position: relative !important;
+    cursor: pointer;
+}
+/*.v-slot.v-slot-sl-grid {
+    border: 1px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: grey;
+}
+div.sl-grid thead.v-grid-header {
+    top: 0;
+    background-color: #f1f1f1;
+    cellspacing: 0px;
+    font-weight: bold;
+}
+.v-slot.v-slot-sl-grid table {
+    cellspacing: 0px;
+    cellpadding: 0px;
+}*/
+.v-label.v-widget.documentHDocLabel.v-label-documentHDocLabel.v-has-width {
+    color: #35524E;
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 15px;
+    postion: relative !important;
+    margin-left: 28px;
+}
+.dashboard .v-upload-immediate .v-button {
+    width: 100%;
+    background: #3ca032;
+    color: white;
+    text-align: center;
+    margin-left: 24px;
+    position: relative !important;
+}
+.v-verticallayout.v-layout.v-vertical.v-widget.personalDetailsTabStyleName.v-verticallayout-personalDetailsTabStyleName.v-has-width {
+    overflow-y: auto;
+}
+
+.v-horizontallayout.v-layout.v-horizontal.v-widget.buttonsHLayoutStyleName.v-horizontallayout-buttonsHLayoutStyleName {
+    position: absolute;
+    right: 0px;
+    padding: 10px;
+    padding-right: 40px;
+}
+.v-slot.v-slot-buttonsHLayoutStyleName {
+    margin-bottom: 35px;
+    position: relative !important;
+}
+.v-button.v-widget.friendly.v-button-friendly.amountsaveButtonStyleName.v-button-amountsaveButtonStyleName {
+    color: white !important;
+    font-size: 15px !important;
+    width: 85px !important;
+    background-color: #0E8B46;
+    font-weight: bold !important;
+    font-family: "Source Sans Pro", sans-serif;
+    margin-left: 120px !important;
+    margin-top: 12px !important;
+    position: relative !important;
+}
+.v-button.v-widget.friendly.v-button-friendly.polSaveButtonStyleName.v-button-polSaveButtonStyleName {
+    color: white !important;
+    font-size: 15px !important;
+    width: 85px !important;
+    background-color: #0E8B46;
+    font-weight: bold !important;
+    font-family: "Source Sans Pro", sans-serif;
+    margin-right: 300px !important;
+    margin-top: 12px !important;
+    position: relative !important;
+}
+.v-button.v-widget.friendly.v-button-friendly.genSaveButtonStyleName.v-button-genSaveButtonStyleName {
+    color: white !important;
+    font-size: 15px !important;
+    width: 85px !important;
+    background-color: #0E8B46;
+    font-weight: bold !important;
+    font-family: "Source Sans Pro", sans-serif;
+    margin-left: 100px !important;
+    margin-top: 12px !important;
+    position: relative !important;
+}
+.v-slot.v-slot-policyDocumentsHLayout {
+    background-color: #354E4B;
+    color: white;
+    font-weight: bold;
+}
+span.v-checkbox.v-widget.polDocBox.v-checkbox-polDocBox {
+    margin-top: 2px;
+    margin-left: 3px;
+    position: relative !important;
+}
+.v-slot.v-slot-sl-grid {
+    margin-top: 10px;
+    position: relative !important;
+}
+// sl-grid-upload is used for all grids in safety-leaf project
+div.sl-grid-upload td.v-grid-cell
+{
+  font-size: 14px;
+  font-weight:400;
+}
+
+div.sl-grid-upload thead.v-grid-header {
+  top: 0;
+  font-weight: bold;
+}
+.v-horizontallayout.v-layout.v-horizontal.v-widget.uploadHeaderStyle.v-horizontallayout-uploadHeaderStyle.v-has-width {
+    height: 40px !important;
+}
+.v-verticallayout.v-layout.v-vertical.v-widget.uploadDocumentsTab.v-verticallayout-uploadDocumentsTab.v-has-width {
+	    overflow-y: scroll;
+}
+.v-slot.v-slot-policyDocumentsPanel {
+    margin-bottom: 15px;
+    position: relative !important;
+    margin-left: 2%;
+    width: 96%;
+}
+.v-slot.v-slot-polDocBox {
+    width: 4% !important;
+    align-content: center;
+}
+img.v-image.v-widget.filterIconStyleName.v-image-filterIconStyleName {
+    margin-top: 10px;
+    margin-right: 5px;
+    margin-left: 4px;
+    position: relative !important;
+}
+.v-slot.v-slot-headerGridLyout.v-align-center.v-align-middle {
+    margin-top: 10px;
+    margin-bottom: 15px;
+    position: relative !important;
+}
+.v-slot.v-slot-shareIconStyleName {
+    width: 30px !important;
+    height: 30px !important;
+    position: relative !important;
+}
+span.v-required-field-indicator {
+    display: none;
+}
+.v-horizontallayout.v-layout.v-horizontal.v-widget.audltsLayout.v-horizontallayout-audltsLayout {
+    margin-left: -140px !important;
+    position: relative !important;
+    margin-top: 30px !important;
+    margin-bottom: 10px !important;
+}
+.v-slot.v-slot-adultNameLabel {
+    font-size: 14px !important;
+    margin-right: 10px !important;
+    margin-top: 5px !important;
+    position: relative !important;
+}
+input.v-textfield.v-widget.adultName.v-textfield-adultName.v-textfield-required.v-required {
+    width: 150px !important;
+}
+.v-slot.v-slot-adultDOCLabel {
+    font-size: 14px !important;
+    margin-left: 8px !important;
+    margin-top: 5px !important;
+    margin-right: 10px !important;
+    position: relative !important;
+}
+.adultDOB {
+    width: 150px !important;
+    margin-right: 10px !important;
+}
+img.v-image.v-widget.minusIcon.v-image-minusIcon.v-has-width {
+    margin-top: 9px !important;
+    position: relative !important;
+    cursor: pointer;
+}
+img.v-image.v-widget.plusIcon.v-image-plusIcon.v-has-width {
+    margin-top: 9px !important;
+    position: relative !important;
+    cursor: pointer;
+}
